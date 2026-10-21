@@ -27,7 +27,7 @@ consigne = (
     "Tu réponds UNIQUEMENT à partir du texte source fourni. "
     "Si la réponse n'y figure pas, dis clairement : "
     "« Je ne trouve pas cela dans le texte fourni. » "
-    "N'invente rien."
+    "N'invente rien. "
     "Si le texte n'aborde le sujet que partiellement, indique ce qu'il en dit et précise ce qu'il ne dit pas. "
 )
 
