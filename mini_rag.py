@@ -31,15 +31,19 @@ consigne = (
     "Si le texte n'aborde le sujet que partiellement, indique ce qu'il en dit et précise ce qu'il ne dit pas. "
 )
 
-question = input("Ta question : ")
+while True:
+    question = input("Ta question : ")
 
-reponse = client.models.generate_content(
-    model="gemini-3.6-flash",
-    config=types.GenerateContentConfig(
-        system_instruction=consigne,
-        temperature=0.1,  # faible = plus fidèle au texte
-    ),
-    contents=f"TEXTE SOURCE :\n{SOURCE}\n\nQUESTION : {question}",
-)
+    reponse = client.models.generate_content(
+        model="gemini-3.6-flash",
+        config=types.GenerateContentConfig(
+            system_instruction=consigne,
+            temperature=0.1,  # faible = plus fidèle au texte
+        ),
+        contents=f"TEXTE SOURCE :\n{SOURCE}\n\nQUESTION : {question}",
+    )
 
-print(reponse.text)
+    print(reponse.text)
+
+    if question == "fin":
+        break
