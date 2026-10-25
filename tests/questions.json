@@ -1,0 +1,26 @@
+[
+  {"question": "Quelles sont les parties de la religion ?",
+   "vers_attendus": [19], "mots_cles": ["iman", "islam", "ihsan"]},
+
+  {"question": "Que doit faire un jeune pour bien commencer sa vie ?",
+   "vers_attendus": [12, 13, 14], "mots_cles": ["savoir", "droiture"]},
+
+  {"question": "Quels attributs sont impossibles pour Dieu ?",
+   "vers_attendus": [35, 36], "mots_cles": ["inexistence", "ignorance"]},
+
+  {"question": "Quels sont les attributs nécessaires de Dieu ?",
+   "vers_attendus": [23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33], "mots_cles": ["puissance", "volonte", "science"]},
+
+  {"question": "En quoi consiste la foi ?",
+   "vers_attendus": [21, 22], "mots_cles": ["anges", "livres", "jugement"]},
+
+  {"question": "Quel est le titre de cet ouvrage ?",
+   "vers_attendus": [7], "mots_cles": ["viatique", "adolescents"]},
+
+  {"question": "Dans quel mètre poétique l'ouvrage est-il écrit ?",
+   "vers_attendus": [6], "mots_cles": ["rajaz"]},
+
+  {"question": "Comment faire la prière ?", "doit_refuser": true},
+
+  {"question": "Combien de rakats compte la prière du matin ?", "doit_refuser": true}
+]
